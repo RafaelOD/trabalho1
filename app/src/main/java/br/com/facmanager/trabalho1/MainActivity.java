@@ -59,8 +59,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
 
                 }catch (Exception e){
-
-
+                    Preparacaoss.setError("");
+                    Preparacaomm.setError("");
+                    Descansomm.setError("");
+                    Descansoss.setError("");
+                    Exerciciomm.setError("");
+                    Exercicioss.setError("");
+                    Repeticao.setError("");
                 }
             }
         });
